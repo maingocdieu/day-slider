@@ -1,0 +1,67 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background: #a6a894;
+  
+}
+.container {
+  width: 500px;
+  position: relative;
+  margin:  108px auto;
+}
+
+.straight {
+  width: 600px;
+  height: 8px;
+  background-color: white;
+  position: relative;
+ 
+  
+}
+.slider {
+  width: 600px;
+  height: 8px;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.circle-slider {
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 8px;
+  position: absolute;
+  left:  0px;
+  top: -6px;
+  z-index: 8;
+}
+
+.circle { 
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+.day-30 {
+  position: absolute;
+  top: -8px;
+  left: 0px;
+  z-index: 6;
+}
+
+.day {
+  margin-left: -30px;
+}
+.day-60 {
+  position: absolute;
+  top: -8px;
+  left: 100px;
+  z-index: 6;
+}
+
